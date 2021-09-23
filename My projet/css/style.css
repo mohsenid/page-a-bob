@@ -1,0 +1,178 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX FIN RESET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* GENERAL */
+body{
+    font-family: 'Baloo 2', cursive;
+    background: url(../img/pattern.jpg);
+}
+
+/* HEADER */
+h1{
+    display: inline-block;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    color: #999 ;
+    font-weight: bold;
+
+}
+header{
+    background: url(../img/pattern.jpg);
+}
+header img{
+    width: 50px;
+}
+nav{
+display: inline-block;
+padding-left: 30%;
+}
+nav a{
+    text-decoration: none;
+    color: #999 ;
+    padding: 30px 20px;
+    display: inline-block;
+}
+nav a i[class]{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* PHOTO BIENVENUE */
+.section1{
+    background: url(../img/oasis.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 150px 75px;
+    /* height: 100vh; */
+}
+.section1 h2{
+    border-bottom: 1px solid #0CB70C;
+    font-size: 1.8rem;
+    color: white;
+    padding: 20px;
+    margin:0 40px;
+}
+.section1 p{
+    line-height: 1.5em;
+    margin: 40px;
+}
+.section1 a{
+    background-color: #0CB70C;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+}
+/* MAIN */
+main{
+    width: 90vw;
+    
+    margin: 0 auto;
+}
+.competences, .methods{
+    text-align: center;
+    
+}
+.competences i[class], main i[class]{
+    display: block;
+    color: black;
+    padding: 10px 0;
+}
+.competences h3, main h3{
+    color: #0CB70C;
+    padding: 20px 0;
+    font-weight: bold;
+    display: block;
+    /* margin: 0 a; */
+    text-align: center;
+}
+.competences article, .methods article{
+    display: inline-block;
+    padding: 10px 25px;
+}
+.competences h4, .methods h4{
+    border-bottom: 1px solid #0CB70C;
+    padding: 15px;
+}
+.competences p, .methods p{
+    color: #999 ;
+    padding: 10px 0;
+}
+.methods{
+    display: inline-flex;
+    
+}
+/* ARTICLES */
+h4{
+    color: #0CB70C;
+    border-bottom: 1px solid #0CB70C;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.exemples img{
+    width: 50%;
+}
+.fright{
+    float: right;
+}
+.fleft{
+    float: left;
+}
+.exemples p{
+    color: #999;
+    line-height: 1.8em;
+}
+.exemples a{
+    color: #0CB70C;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+}
